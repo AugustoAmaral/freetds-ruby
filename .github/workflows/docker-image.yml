@@ -24,4 +24,4 @@ jobs:
       run: docker build . --file Dockerfile --tag augustoamara/freetds-ruby:2.7.6
       
     - name: Docker Push
-      run: docker push augustoamara/freetds-ruby
+      run: docker push augustoamara/freetds-ruby:2.7.6
